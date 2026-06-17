@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aman H — IT Graduate | Developer · Data Analyst</title>
+  <meta name="description" content="B.Tech IT Graduate skilled in SQL, Power BI, Excel, Python, and Java. Open to Developer and Analyst roles.">
+  <meta property="og:title" content="Aman H — IT Graduate Portfolio">
+  <meta property="og:description" content="Developer · Data Analyst · SQL · Power BI · Python · Java">
+  <meta property="og:type" content="website">
+  <meta name="author" content="Aman H">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700;1,800&family=JetBrains+Mono:wght@400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700;1,800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"></noscript>  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-ring"></div>
+      <span class="loader-name">AMAN <em>H</em></span>
+      <span class="loader-role">IT Graduate · Developer · Analyst</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div id="scroll-progress"></div>
+
+  <!-- Back to Top -->
+  <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">AMAN<em>H</em></div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certificates">Certs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="aman-h-resume.pdf" target="_blank" class="nav-resume-btn">
+        <span>Resume</span><i class="fas fa-arrow-up-right-from-square"></i>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-container">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Open to IT Roles &nbsp;·&nbsp; IST <span id="ist-clock"></span></span>
+        </div>
+
+        <p class="hero-eyebrow">Hello, I'm</p>
+        <h1 class="hero-title">Aman <em>H</em></h1>
+
+        <div class="hero-role-wrap">
+          <span class="hero-role-arrow">→</span>
+          <p class="hero-role"><span id="typewriter"></span><span class="cursor">|</span></p>
+        </div>
+
+        <p class="hero-desc">
+          B.Tech IT Graduate (2026) with hands-on experience in web development, data analysis, and AI application development. I build solutions that work — from interactive dashboards to machine learning platforms — and I learn fast.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            <span>View Projects</span><i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="aman-h-resume.pdf" download class="btn-ghost">
+            <i class="fas fa-download"></i><span>Download Resume</span>
+          </a>
+          <a href="https://www.linkedin.com/in/aman-h-engineering/" target="_blank" class="btn-ghost">
+            <i class="fab fa-linkedin"></i><span>LinkedIn</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="6" data-suffix="+">0+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="3" data-suffix="+">0+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number stat-static">8.6</span>
+            <span class="stat-label">CGPA / 10</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="2" data-suffix="+">0+</span>
+            <span class="stat-label">Internships</span>
+          </div>
+        </div>
+
+        <div class="hero-trust">
+          <span>✓ Google Data Analytics Certified</span>
+          <span>✓ SQL Intermediate (HackerRank)</span>
+          <span>✓ Built CreditIQ — 93% Accuracy</span>
+          <span>✓ Open to Full-Time Roles</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="photo-wrapper">
+          <div class="photo-glow"></div>
+          <div class="photo-corner c1"></div>
+          <div class="photo-corner c2"></div>
+          <div class="photo-corner c3"></div>
+          <div class="photo-corner c4"></div>
+          <div class="photo-frame">
+            <img src="images/profile.png" alt="Aman H — IT Graduate" class="profile-photo" loading="eager" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section reveal">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label"><span class="label-num">01</span>About</p>
+        <h2 class="section-title">Who I <em>Am</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text-block">
+          <p class="about-lead">
+            I'm a <strong>B.Tech IT Graduate</strong> who enjoys building things — whether it's a data dashboard that reveals hidden patterns, a backend that handles logic cleanly, or a web app someone can actually use.
+          </p>
+          <p class="about-body">
+            My foundation covers <mark>Java</mark>, <mark>Python</mark>, <mark>SQL</mark>, and <mark>Web Technologies</mark>. Through real projects I've worked across the stack — from writing complex SQL queries and building Power BI dashboards to developing AI-powered applications with machine learning.
+          </p>
+          <p class="about-body">
+            I'm a quick learner who takes ownership of what I build. I don't just look for tasks to complete — I look for problems worth solving. Right now, I'm actively seeking my first full-time IT role where I can contribute from day one and grow fast.
+          </p>
+          <div class="about-status">
+            <span class="status-dot"></span>
+            <span>Graduated 2026 · Actively applying for IT roles</span>
+          </div>
+        </div>
+        <div class="about-cards-col">
+          <div class="about-mini-card">
+            <div class="mini-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div><strong>Location</strong><span>Ranipet, Tamil Nadu, India</span></div>
+          </div>
+          <div class="about-mini-card">
+            <div class="mini-card-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div><strong>Degree</strong><span>B.Tech — Information Technology</span></div>
+          </div>
+          <div class="about-mini-card">
+            <div class="mini-card-icon"><i class="fas fa-briefcase"></i></div>
+            <div><strong>Open To</strong><span>Developer · Analyst · IT Support</span></div>
+          </div>
+          <div class="about-mini-card">
+            <div class="mini-card-icon"><i class="fas fa-bolt"></i></div>
+            <div><strong>Strengths</strong><span>Fast learner · Problem solver · Self-driven</span></div>
+          </div>
+          <div class="about-mini-card">
+            <div class="mini-card-icon"><i class="fas fa-language"></i></div>
+            <div><strong>Languages</strong><span>Tamil, English, Hindi</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section reveal">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label"><span class="label-num">02</span>Skills</p>
+        <h2 class="section-title">Technical <em>Stack</em></h2>
+      </div>
+      <div class="skills-layout">
+        
+        <!-- Block 1: Data & Business Intelligence -->
+        <div class="skill-block">
+          <h3 class="skill-cat"><i class="fas fa-chart-bar"></i>Data & BI</h3>
+          <div class="skill-pills">
+            <div class="skill-pill tier-1"><span>Power BI</span></div>
+            <div class="skill-pill tier-1"><span>ETL Processing</span></div>
+            <div class="skill-pill tier-1"><span>Data Cleaning</span></div>
+            <div class="skill-pill tier-1"><span>Dashboard Design</span></div>
+            <div class="skill-pill tier-1"><span>Microsoft Excel</span></div>
+          </div>
+        </div>
+
+        <!-- Block 2: Programming & Web -->
+        <div class="skill-block">
+          <h3 class="skill-cat"><i class="fas fa-code"></i>Languages & Web</h3>
+          <div class="skill-pills">
+            <div class="skill-pill tier-1"><span>SQL</span></div>
+            <div class="skill-pill tier-1"><span>HTML5</span></div>
+            <div class="skill-pill tier-1"><span>CSS3</span></div>
+            <div class="skill-pill tier-2"><span>Python</span></div>
+            <div class="skill-pill tier-2"><span>Java</span></div>
+          </div>
+        </div>
+
+        <!-- Block 3: AI-Assisted Workflows -->
+        <div class="skill-block">
+          <h3 class="skill-cat"><i class="fas fa-robot"></i>AI-Assisted Workflows</h3>
+          <div class="skill-pills">
+            <div class="skill-pill tier-1"><span>Prompt Engineering</span></div>
+            <div class="skill-pill tier-1"><span>ChatGPT / Gemini / Claude</span></div>
+            <div class="skill-pill tier-1"><span>AI-Powered Analytics</span></div>
+          </div>
+        </div>
+
+        <!-- Block 4: Development Tools -->
+        <div class="skill-block">
+          <h3 class="skill-cat"><i class="fas fa-tools"></i>Development Tools</h3>
+          <div class="skill-pills">
+            <div class="skill-pill tier-1"><span>Git & GitHub</span></div>
+            <div class="skill-pill tier-1"><span>VS Code</span></div>
+            <div class="skill-pill tier-1"><span>Jupyter Notebook</span></div>
+            <div class="skill-pill tier-1"><span>MYSQL Workbench</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience -->
+  <section id="experience" class="section reveal">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label"><span class="label-num">03</span>Experience</p>
+        <h2 class="section-title">Work <em>Experience</em></h2>
+      </div>
+      <div class="work-grid">
+        <div class="work-card card-style">
+          <div class="work-top">
+            <div>
+              <div class="work-role">Java Full Stack Intern</div>
+              <div class="work-company">Femotosoft Technologies</div>
+            </div>
+            <span class="work-date">Aug 2025 – Sep 2025</span>
+          </div>
+          <ul class="work-bullets">
+            <li>Applied front-end development principles to convert UI/UX designs into functional and responsive web interfaces.</li>
+            <li>Gained practical understanding of web development processes, technical limitations, and project implementation workflows.</li>
+          </ul>
+        </div>
+        <div class="work-card card-style">
+          <div class="work-top">
+            <div>
+              <div class="work-role">Web Development Intern</div>
+              <div class="work-company">InternPE</div>
+            </div>
+            <span class="work-date">Jul 2025 – Aug 2025</span>
+          </div>
+          <ul class="work-bullets">
+            <li>Completed a one-month internship focused on both front-end and back-end web development.</li>
+            <li>Applied HTML, CSS, JavaScript, and responsive design principles to develop functional, user-friendly web interfaces.</li>
+            <li>Collaborated in testing, debugging, and improving user experience across multiple web applications.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section reveal">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label"><span class="label-num">04</span>Projects</p>
+        <h2 class="section-title">Featured <em>Work</em></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="images/creditiq.png" alt="CreditIQ Platform" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://creditiq-amanhari.streamlit.app/" target="_blank" class="overlay-btn">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+            <div class="project-num">01</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>Python</span><span>Machine Learning</span><span>Streamlit</span><span>Explainable AI</span>
+            </div>
+            <h3 class="project-title">CreditIQ — AI Credit Risk Platform</h3>
+            <p class="project-desc">Built an AI-powered credit risk assessment platform using Python, Streamlit, and Scikit-Learn. Uses a Random Forest model with SHAP and LIME for transparent, explainable predictions — plus CSV batch upload and SQLite storage.</p>
+            <div class="project-metrics">
+              <span><i class="fas fa-brain"></i>93.19% Accuracy</span>
+              <span><i class="fas fa-chart-line"></i>SHAP & LIME XAI</span>
+            </div>
+            <a href="https://github.com/amanhari1808-arch/creditiq" target="_blank" class="project-link">
+              GitHub Repo <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="images/adidas.jpg" alt="Adidas Sales Dashboard" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/amanhari1808-arch/Adidas-Sales-Analysis-Dashboard" target="_blank" class="overlay-btn">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+            <div class="project-num">02</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>Power BI</span><span>Excel</span><span>DAX</span>
+            </div>
+            <h3 class="project-title">Adidas Sales Analysis Dashboard</h3>
+            <p class="project-desc">Interactive Power BI dashboard analyzing Adidas sales performance across regions, products, and retailers. Used DAX measures and KPI tracking to uncover revenue trends and high-performing business segments.</p>
+            <div class="project-metrics">
+              <span><i class="fas fa-chart-line"></i>Regional KPI tracking</span>
+              <span><i class="fas fa-layer-group"></i>Multi-page report</span>
+            </div>
+            <a href="https://github.com/amanhari1808-arch/Adidas-Sales-Analysis-Dashboard" target="_blank" class="project-link">
+              GitHub Repo <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="images/pizza.png" alt="Pizza Sales Dashboard" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/amanhari1808-arch/Pizza-Sales-Analysis-Dashboard" target="_blank" class="overlay-btn">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+            <div class="project-num">03</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>Power BI</span><span>SQL</span><span>Excel</span>
+            </div>
+            <h3 class="project-title">Pizza Sales Analytics Dashboard</h3>
+            <p class="project-desc">Complete SQL and Power BI analytics solution evaluating pizza sales trends, customer ordering behavior, peak business hours, and product category performance across the full dataset.</p>
+            <div class="project-metrics">
+              <span><i class="fas fa-clock"></i>Peak hour detection</span>
+              <span><i class="fas fa-pizza-slice"></i>Category breakdown</span>
+            </div>
+            <a href="https://github.com/amanhari1808-arch/Pizza-Sales-Analysis-Dashboard" target="_blank" class="project-link">
+              GitHub Repo <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="images/movie.png" alt="Movie Data Analysis" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/amanhari1808-arch/Movie-Analysis-Dashboard" target="_blank" class="overlay-btn">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+            <div class="project-num">04</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>SQL</span><span>Data Analysis</span><span>Aggregations</span>
+            </div>
+            <h3 class="project-title">Movie Data Analysis</h3>
+            <p class="project-desc">Exploratory data analysis using advanced SQL queries, joins, subqueries, and window functions to identify patterns in movie ratings, revenue, genres, and release performance across a large dataset.</p>
+            <div class="project-metrics">
+              <span><i class="fas fa-film"></i>Genre segmentation</span>
+              <span><i class="fas fa-star"></i>Rating analysis</span>
+            </div>
+            <a href="https://github.com/amanhari1808-arch/Movie-Analysis-Dashboard" target="_blank" class="project-link">
+              GitHub Repo <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="images/retail.png" alt="Retail Sales Dashboard" class="project-img" loading="lazy">
+            <div class="project-overlay">
+              <a href="https://github.com/amanhari1808-arch/Retail-Sales-Performance-Dashboard" target="_blank" class="overlay-btn">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+            <div class="project-num">05</div>
+          </div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span>Power BI</span><span>Excel</span><span>Data Cleaning</span>
+            </div>
+            <h3 class="project-title">Retail Sales Dashboard</h3>
+            <p class="project-desc">Built a retail sales performance dashboard using Power BI and Excel. Analyzed sales by product category, region, and time period to support business decision-making with clear visual insights.</p>
+            <div class="project-metrics">
+              <span><i class="fas fa-store"></i>Category analysis</span>
+              <span><i class="fas fa-calendar"></i>Trend tracking</span>
+            </div>
+            <a href="https://github.com/amanhari1808-arch/Retail-Sales-Performance-Dashboard" target="_blank" class="project-link">
+              GitHub Repo <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="projects-cta">
+        <a href="https://github.com/amanhari1808-arch" target="_blank" class="btn-ghost">
+          <i class="fab fa-github"></i><span>See All Projects on GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section reveal">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label"><span class="label-num">05</span>Education</p>
+        <h2 class="section-title">Academic <em>Background</em></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"><i class="fas fa-university"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-top">
+              <h3 class="timeline-degree">B.Tech — Information Technology</h3>
+              <span class="timeline-badge current">Graduating 2026</span>
+            </div>
+            <p class="timeline-school">Global Institute of Engineering and Technology, Melvisharam</p>
+            <div class="timeline-meta">
+              <span><i class="fas fa-star"></i>CGPA: 8.6 / 10</span>
+              <span><i class="fas fa-map-marker-alt"></i>Ranipet, Tamil Nadu</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"><i class="fas fa-school"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-top">
+              <h3 class="timeline-degree">Higher Secondary (HSC)</h3>
+              <span class="timeline-badge">Completed · 2022</span>
+            </div>
+            <p class="timeline-school">Bhel Ramakrishna Hr Sec School, BHEL Ranipet</p>
+            <div class="timeline-meta">
+              <span><i class="fas fa-percent"></i>69%</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"><i class="fas fa-book"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-top">
+              <h3 class="timeline-degree">Secondary Schooling (SSLC)</h3>
+              <span class="timeline-badge">Completed · 2020</span>
+            </div>
+            <p class="timeline-school">Govt High School, Sipcot, Ranipet</p>
+            <div class="timeline-meta">
+              <span><i class="fas fa-percent"></i>82%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="section reveal">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label"><span class="label-num">06</span>Certificates</p>
+        <h2 class="section-title">My <em>Credentials</em></h2>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fab fa-google"></i></div>
+          <div>
+            <span class="cert-issuer">TNSDC / InGage</span>
+            <h3 class="cert-title">Data Analytics by Google</h3>
+          </div>
+          <p class="cert-desc">Foundations of data, spreadsheets, SQL, Tableau, and the end-to-end analysis process — practical and industry-aligned.</p>
+          <a href="images/Data Analytics by Google.jpg" target="_blank" class="cert-btn">
+            <i class="fas fa-external-link-alt"></i>View Certificate
+          </a>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fab fa-hackerrank"></i></div>
+          <div>
+            <span class="cert-issuer">HackerRank</span>
+            <h3 class="cert-title">SQL (Intermediate)</h3>
+          </div>
+          <p class="cert-desc">Joins, aggregations, subqueries, window functions, and data transformation — verified at intermediate level.</p>
+          <a href="images/SQL(Intermediate).jpg" target="_blank" class="cert-btn">
+            <i class="fas fa-external-link-alt"></i>View Certificate
+          </a>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-chart-bar"></i></div>
+          <div>
+            <span class="cert-issuer">OfficeMaster</span>
+            <h3 class="cert-title">Power BI Workshop</h3>
+          </div>
+          <p class="cert-desc">Dashboard design, DAX formulas, data modelling, report publishing — hands-on workshop certification.</p>
+          <a href="images/powerbi_workshop.jpg" target="_blank" class="cert-btn">
+            <i class="fas fa-external-link-alt"></i>View Certificate
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section reveal">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label"><span class="label-num">07</span>Contact</p>
+        <h2 class="section-title">Get in <em>Touch</em></h2>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info">
+          <p class="contact-intro">
+            Currently open to <strong>Developer, Analyst, and IT roles</strong> — full-time or internship. If your team needs a motivated fresher who learns fast, solves real problems, and takes ownership, let's talk.
+          </p>
+          <div class="contact-links-list">
+            <a href="mailto:amanhari.data@gmail.com" class="contact-link-item">
+              <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-val">amanhari.data@gmail.com</span>
+              </div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/aman-h-engineering" target="_blank" class="contact-link-item">
+              <div class="contact-link-icon"><i class="fab fa-linkedin"></i></div>
+              <div>
+                <span class="contact-link-label">LinkedIn</span>
+                <span class="contact-link-val">aman-h-engineering</span>
+              </div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <a href="https://github.com/amanhari1808-arch" target="_blank" class="contact-link-item">
+              <div class="contact-link-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact-link-label">GitHub</span>
+                <span class="contact-link-val">amanhari1808-arch</span>
+              </div>
+              <i class="fas fa-arrow-right contact-arrow"></i>
+            </a>
+            <div class="contact-link-item" style="cursor:default;">
+              <div class="contact-link-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="contact-link-label">Phone</span>
+                <span class="contact-link-val">+91 9150957812</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-topline"></div>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-submit">
+            <span>Send Message</span><i class="fas fa-paper-plane"></i>
+          </button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <div class="footer-logo">AMAN<em>H</em></div>
+        <p>IT Graduate · Developer · Analyst · Ranipet, Tamil Nadu</p>
+      </div>
+      <div class="footer-right">
+        <a href="https://www.linkedin.com/in/aman-h-data-analyst/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/amanhari1808-arch" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:amanhari.data@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Aman H · B.Tech IT Graduate · Open to IT Roles</p>
+    </div>
+  </footer>
+
+  <script>
+    /* ── Loader ── */
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('loader');
+      setTimeout(() => {
+        loader.classList.add('fade-out');
+        setTimeout(() => loader.remove(), 800);
+      }, 1800);
+    });
+
+    /* ── Scroll Progress ── */
+    let sTick = false;
+    window.addEventListener('scroll', () => {
+      if (!sTick) {
+        requestAnimationFrame(() => {
+          const pct = (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100;
+          document.getElementById('scroll-progress').style.width = pct + '%';
+          sTick = false;
+        });
+        sTick = true;
+      }
+    });
+
+    /* ── Navbar ── */
+    const navbar = document.getElementById('navbar');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sections = document.querySelectorAll('section[id]');
+    let nTick = false;
+    window.addEventListener('scroll', () => {
+      if (!nTick) {
+        requestAnimationFrame(() => {
+          navbar.classList.toggle('scrolled', window.scrollY > 50);
+          let current = '';
+          sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) current = s.id; });
+          navLinks.forEach(a => {
+            a.classList.remove('active');
+            if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+          });
+          document.getElementById('back-to-top').classList.toggle('visible', window.scrollY > 400);
+          nTick = false;
+        });
+        nTick = true;
+      }
+    });
+
+    /* ── Mobile menu ── */
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinksEl = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      navLinksEl.classList.toggle('open');
+      menuToggle.classList.toggle('open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinksEl.classList.remove('open');
+        menuToggle.classList.remove('open');
+      });
+    });
+
+    /* ── Back to top ── */
+    document.getElementById('back-to-top').addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
+
+    /* ── Typewriter ── */
+    const roles = ['Software Developer', 'Data Analyst', 'AI App Developer', 'Web Developer', 'Python Developer', 'IT Fresher (2026)'];
+    let ri = 0, ci = 0, deleting = false;
+    const tw = document.getElementById('typewriter');
+    function type() {
+      const word = roles[ri];
+      tw.textContent = deleting ? word.slice(0, ci--) : word.slice(0, ci++);
+      if (!deleting && ci === word.length + 1) { deleting = true; setTimeout(type, 1800); return; }
+      if (deleting && ci === 0) { deleting = false; ri = (ri + 1) % roles.length; }
+      setTimeout(type, document.hidden ? 0 : deleting ? 45 : 90);
+    }
+    type();
+
+    /* ── Reveal on scroll ── */
+    const revealObs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revealObs.unobserve(e.target); } });
+    }, { threshold: 0.07 });
+    document.querySelectorAll('.reveal').forEach(el => revealObs.observe(el));
+
+    /* ── Staggered children ── */
+    const staggerObs = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.querySelectorAll('.project-card,.cert-card,.about-mini-card,.skill-block,.timeline-item,.work-card').forEach((child, i) => {
+            child.style.transitionDelay = (i * 0.08) + 's';
+            child.style.opacity = '0';
+            child.style.transform = 'translateY(24px)';
+            setTimeout(() => { child.style.opacity='1'; child.style.transform='translateY(0)'; child.style.transition='opacity 0.5s ease, transform 0.5s ease'; }, i * 80);
+          });
+          staggerObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.05 });
+    document.querySelectorAll('.projects-grid,.certs-grid,.about-cards-col,.skills-layout,.timeline,.work-grid').forEach(el => staggerObs.observe(el));
+
+    /* ── Counter animation ── */
+    const heroObs = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) {
+        document.querySelectorAll('.stat-number:not(.stat-static)').forEach(el => {
+          const target = +el.dataset.target, suffix = el.dataset.suffix || '';
+          let cur = 0;
+          const step = setInterval(() => { cur = Math.min(cur+1, target); el.textContent = cur + suffix; if (cur >= target) clearInterval(step); }, 120);
+        });
+        heroObs.disconnect();
+      }
+    }, { threshold: 0.5 });
+    const statsEl = document.querySelector('.hero-stats');
+    if (statsEl) heroObs.observe(statsEl);
+
+    /* ── IST Clock ── */
+    function updateClock() {
+      const t = new Date().toLocaleTimeString('en-US', { timeZone:'Asia/Kolkata', hour:'2-digit', minute:'2-digit', hour12:true });
+      const el = document.getElementById('ist-clock');
+      if (el) el.textContent = t;
+    }
+    updateClock(); setInterval(updateClock, 1000);
+
+    /* ── Contact form ── */
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const note = document.getElementById('formNote');
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      if (!name) { note.textContent = '✗ Please enter your name.'; note.style.color = '#ef4444'; return; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { note.textContent = '✗ Please enter a valid email.'; note.style.color = '#ef4444'; return; }
+      if (message.length < 10) { note.textContent = '✗ Message must be at least 10 characters.'; note.style.color = '#ef4444'; return; }
+      note.textContent = '✓ Message received! I\'ll get back to you soon.';
+      note.style.color = 'var(--gold)';
+      this.reset();
+      setTimeout(() => note.textContent = '', 5000);
+    });
+
+    /* ── Hero Canvas Particles ── */
+    const canvas = document.getElementById('hero-canvas');
+    const ctx = canvas.getContext('2d');
+    let dots = [];
+    function resizeCanvas() { canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight; }
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+    for (let i = 0; i < 40; i++) {
+      dots.push({
+        x: Math.random() * canvas.width, y: Math.random() * canvas.height,
+        r: Math.random() * 1.5 + 0.3, dx: (Math.random()-0.5)*0.25, dy: (Math.random()-0.5)*0.25,
+        o: Math.random() * 0.5 + 0.15
+      });
+    }
+    function drawDots() {
+      if (document.hidden) { requestAnimationFrame(drawDots); return; }
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      dots.forEach(d => {
+        ctx.beginPath(); ctx.arc(d.x, d.y, d.r, 0, Math.PI*2);
+        ctx.fillStyle = `rgba(59,130,246,${d.o * 0.5})`; ctx.fill();
+        d.x += d.dx; d.y += d.dy;
+        if (d.x < 0 || d.x > canvas.width) d.dx *= -1;
+        if (d.y < 0 || d.y > canvas.height) d.dy *= -1;
+      });
+      dots.forEach((d, i) => {
+        for (let j = i+1; j < dots.length; j++) {
+          const dist = Math.hypot(d.x-dots[j].x, d.y-dots[j].y);
+          if (dist < 90) {
+            ctx.beginPath(); ctx.moveTo(d.x, d.y); ctx.lineTo(dots[j].x, dots[j].y);
+            ctx.strokeStyle = `rgba(59,130,246,${0.08*(1-dist/90)})`; ctx.lineWidth=0.5; ctx.stroke();
+          }
+        }
+      });
+      requestAnimationFrame(drawDots);
+    }
+    drawDots();
+
+    /* ── Infinite Project Carousel ── */
+    (function() {
+      const grid = document.querySelector('.projects-grid');
+      if (!grid) return;
+      const origCards = Array.from(grid.children);
+      origCards.forEach(c => grid.appendChild(c.cloneNode(true)));
+      origCards.slice().reverse().forEach(c => grid.prepend(c.cloneNode(true)));
+      let setWidth = 0;
+      function init() { setWidth = grid.scrollWidth / 3; grid.scrollLeft = setWidth; }
+      setTimeout(init, 150);
+      window.addEventListener('resize', () => setTimeout(init, 150));
+      let paused = false;
+
+      // Frame-rate independent speed logic
+      let lastTime = 0;
+      const speed = 0.05; // Adjust this value if you want it slower/faster
+
+      function loop(time) {
+        if (!lastTime) lastTime = time;
+        const delta = time - lastTime;
+        lastTime = time;
+
+        if (!paused) grid.scrollLeft += speed * delta;
+
+        if (grid.scrollLeft >= setWidth*2) grid.scrollLeft -= setWidth;
+        else if (grid.scrollLeft <= 0) grid.scrollLeft += setWidth;
+        requestAnimationFrame(loop);
+      }
+
+      grid.addEventListener('mouseenter', () => paused = true);
+      grid.addEventListener('mouseleave', () => paused = false);
+      grid.addEventListener('touchstart', () => paused = true, { passive:true });
+      grid.addEventListener('touchend', () => paused = false);
+      let wt;
+      grid.addEventListener('wheel', () => { paused = true; clearTimeout(wt); wt = setTimeout(() => paused = false, 600); });
+      grid.addEventListener('scroll', () => {
+        if (grid.scrollLeft >= setWidth*2) grid.scrollLeft -= setWidth;
+        else if (grid.scrollLeft <= 0) grid.scrollLeft += setWidth;
+      });
+      requestAnimationFrame(loop);
+    })();
+  </script>
+
+</body>
+</html>
